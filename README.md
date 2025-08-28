@@ -16,7 +16,7 @@ A sample end-to-end testing project using [Playwright](https://playwright.dev/) 
 
 ### 1. Clone this repository  
 ```bash
-git clone https://github.com/<your-username>/playwright-e2e-demo.git
+git clone https://github.com/nattinanmp42/playwright-e2e-demo.git
 cd playwright-e2e-demo
 ```
 
