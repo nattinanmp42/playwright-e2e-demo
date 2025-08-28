@@ -64,9 +64,7 @@ npx playwright show-report
 ```
 playwright-e2e-demo/
 ├── tests/              # Test cases
-│   ├── login.spec.js
-│   ├── checkout.spec.js
-│   └── order-history.spec.js
+│   ├── e2e-order.spec.js
 ├── playwright.config.js
 ├── package.json
 └── README.md
