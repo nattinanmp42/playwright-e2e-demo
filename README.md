@@ -24,22 +24,24 @@ This project demonstrates automated testing of an **e-commerce website** coverin
 
 ## 🚀 Getting Started
 
-### 1. Clone this repository
+
+1. Clone this repository
 ```bash
 git clone https://github.com/nattinanmp42/playwright-e2e-demo.git
 cd playwright-e2e-demo
 2. Install dependencies
-bash
+```bash
 Copy code
 npm install
 3. Run tests
-bash
+```bash
 Copy code
 npm test
 4. View test report
-bash
+```bash
 Copy code
 npm run report
+
 📊 Test Flow Overview
 Go to login page and sign in with credentials
 
