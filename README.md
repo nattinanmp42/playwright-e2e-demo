@@ -1,61 +1,81 @@
-# 🎭 Playwright E2E Demo
+# 🎭 Playwright E2E Demo  
 
-End-to-End automation testing project built with **Playwright**.  
-This project demonstrates automated testing of an **e-commerce website** covering login, product selection, checkout, and order verification.
-
----
-
-## ✨ Features
-- 🔑 Login with test account  
-- 🛒 Add products to cart  
-- 💳 Checkout process with payment details  
-- 🌍 Select country dynamically  
-- 📦 Validate order success page  
-- 📜 Verify order history  
+A sample end-to-end testing project using [Playwright](https://playwright.dev/) with **JavaScript** and **Node.js**.  
 
 ---
 
-## 🛠 Tech Stack
+## 🛠️ Tech Stack  
+
 - **Language**: JavaScript  
-- **Framework**: [Playwright Test](https://playwright.dev/)  
+- **Framework**: [Playwright Test](https://playwright.dev/docs/test-intro)  
 - **Runtime**: Node.js  
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started  
 
-
-1. Clone this repository
+### 1. Clone this repository  
 ```bash
-git clone https://github.com/nattinanmp42/playwright-e2e-demo.git
+git clone https://github.com/<your-username>/playwright-e2e-demo.git
 cd playwright-e2e-demo
-2. Install dependencies
+```
+
+### 2. Install dependencies  
 ```bash
-Copy code
 npm install
-3. Run tests
+```
+
+### 3. Run tests  
 ```bash
-Copy code
 npm test
-4. View test report
+```
+
+### 4. View test report  
 ```bash
-Copy code
 npm run report
+```
 
-📊 Test Flow Overview
-Go to login page and sign in with credentials
+---
 
-Add multiple products to cart
+## 📊 Test Flow Overview  
 
-Proceed to checkout and enter payment details
+This demo covers a typical e-commerce flow:  
 
-Confirm order and verify success message
+1. Go to login page and **sign in** with credentials  
+2. Add multiple products to cart  
+3. Proceed to checkout and enter payment details  
+4. Confirm order and verify success message  
+5. Validate order history contains placed order  
 
-Validate order history contains placed order
+---
 
-📷 Example Report
-You can generate and view reports with:
+## 🖼️ Example Report  
 
-bash
-Copy code
+Generate and view an interactive test report with:  
+
+```bash
 npx playwright show-report
+```
+
+---
+
+## 📌 Project Structure  
+
+```
+playwright-e2e-demo/
+├── tests/              # Test cases
+│   ├── login.spec.js
+│   ├── checkout.spec.js
+│   └── order-history.spec.js
+├── playwright.config.js
+├── package.json
+└── README.md
+```
+
+---
+
+## 🤝 Contributing  
+
+Contributions are welcome! Feel free to fork this repo, create a feature branch, and submit a pull request.  
+
+---
