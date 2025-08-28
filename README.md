@@ -1,30 +1,37 @@
-# Playwright E2E Demo 🚀
+# 🎭 Playwright E2E Demo
 
-This project demonstrates **End-to-End testing** using [Playwright](https://playwright.dev/).
+This project is an **End-to-End Automation Test** built with [Playwright](https://playwright.dev/).  
+It demonstrates automated testing of an e-commerce website.
+
+---
 
 ## 📌 Test Scenario
-- Login with test account
-- Add 2 products to cart
-- Proceed to checkout
-- Validate order success page
-- Verify order history
+- Login with test account  
+- Add 2 products into cart  
+- Proceed to checkout  
+- Select country and fill payment details  
+- Validate order success page  
+- Verify order history page  
 
-## 🛠 Setup
-1. Clone this repo
-   ```bash
-   git clone https://github.com/nattinanmp42/playwright-e2e-demo.git
-   cd playwright-e2e-demo
+---
 
-2. Install dependencies
-   :npm install
+## 🛠 Tech Stack
+- Node.js  
+- Playwright Test (JavaScript)  
 
-3. Install dependencies
-   :npm test
+---
 
-4. Install dependencies
-   :npm run report
+## 🚀 Setup & Run
 
-✅ Tech Stack
-Node.js
-Playwright Test
-JavaScript
+1. Clone this repository:  
+   git clone https://github.com/<your-username>/playwright-e2e-demo.git  
+   cd playwright-e2e-demo  
+
+2. Install dependencies:  
+   npm install  
+
+3. Run tests:  
+   npm test  
+
+4. View test report:  
+   npm run report  
